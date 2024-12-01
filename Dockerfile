@@ -21,7 +21,7 @@ RUN npm install -g serve
 
 # Expose the application on port 3000
 EXPOSE 3000
-EXPOSE 3001
+#EXPOSE 3001
 
 # Command to serve the build folder
 CMD ["serve", "-s", "build", "-l", "3000"]
